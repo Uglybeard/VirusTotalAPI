@@ -34,6 +34,7 @@ https://127.0.0.1
 eb5e57e7db3af792b4c9e9f28525843b
 192.168.1.1
 abcd
+q
 ```
 
 Output (contents of the file "VT_ReputationCheck.txt"):
