@@ -16,7 +16,7 @@ The result will be broken down by type, reporting the following entries: Domains
 - IP Addresses: contains the summary of antiviruses that identified individual IP addresses as malicious.
 - FIles: contains the report of antiviruses that identified individual SHA1, SHA256 and/or MD5 as malicious.
 - Suspicious/Malicious Summary: contains the summary of all domains, IP addresses, and files that were deemed malicious.
-- Unknow: contains the entries that the code was unable to identify and, consequently, analyze
+- Unknown: contains the entries that the code was unable to identify and, consequently, analyze
 
 The report of each individual file will contain the antiviruses that flagged it as malicious or suspicious, "Undetected" in case it is clean or "Not found" in case it is not on the VirusTotal database.
 
