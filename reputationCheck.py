@@ -153,6 +153,6 @@ with open("VT_ReputationCheck.txt", "w") as f:
             f.write(obj + "\n")
 
     if(len(errors)!=0):
-        f.write("--------- UNKNOWN CATEGORY, NOT ANALYZED ---------\n")
+        f.write("\n--------- UNKNOWN CATEGORY, NOT ANALYZED ---------\n")
         for error in errors:
             f.write(error + "\n")
