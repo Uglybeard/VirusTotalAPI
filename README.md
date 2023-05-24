@@ -29,11 +29,14 @@ Following is an example of code execution:
 Input:
 
 ```
+Enter input (or 'q' to quit):
 google.com
 https://127.0.0.1
 eb5e57e7db3af792b4c9e9f28525843b
+1EE3D7C80D075D64F97D04D036E558043F2F6BC959C87CD5B0A6D53B96B96A0F
 192.168.1.1
-abcd
+1.2.3.4
+abcd 
 q
 ```
 
@@ -79,6 +82,9 @@ Rising: malicious
 Fortinet: malicious
 AVG: malicious
 
+Results for 1EE3D7C80D075D64F97D04D036E558043F2F6BC959C87CD5B0A6D53B96B96A0F: 
+Undetected
+
 --------- DOMAINS ---------
 Results for google.com: 
 Undetected
@@ -90,8 +96,15 @@ Undetected
 Results for 192.168.1.1: 
 Undetected
 
+Results for 1.2.3.4: 
+CRDF: malicious
+CyRadar: malicious
+Sucuri SiteCheck: malicious
+CrowdSec: suspicious
+
 --------- SUSPECT/MALICIOUS SUMMARY ---------
 eb5e57e7db3af792b4c9e9f28525843b
+1.2.3.4
 
 --------- UNKNOWN CATEGORY, NOT ANALYZED ---------
 abcd
