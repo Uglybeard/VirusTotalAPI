@@ -10,7 +10,7 @@ You can enter many different entries at once, so there is no need to divide them
 
 When the analysis is complete, a ".txt" file named "VT_ReputationCheck.txt" will be generated containing the result of the analysis performed on all the entries entered.
 
-The result will be broken down by type, reporting the following entries: Domains, IP Addresses, Files, Suspicious/Malicious Summary, and Unknown.
+The result will be broken down by type, reporting the following entries: Domains, IP Addresses, Files, Suspicious/Malicious Summary and Unknown.
 
 - Domains: contains the report of antiviruses that have identified individual domains and/or Urls as malicious.
 - IP Addresses: contains the summary of antiviruses that identified individual IP addresses as malicious.
