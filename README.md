@@ -2,7 +2,7 @@
 
 ## Check IP, domain and file reputation
 
-Enter a list of IP addresses, URLs, domains, SHA1, SHA256 or MD5 to get their reputation as a result.
+Enter a list of IP addresses, URLs, domains, SHA1, SHA256 or MD5 divided by a new-line (press enter) to get their reputation as a result.
 
 Once started, the script will prompt you to enter the above entries or "q" to end execution.
 
@@ -12,13 +12,13 @@ When the analysis is complete, a ".txt" file named "VT_ReputationCheck.txt" will
 
 The result will be broken down by type, reporting the following entries: Domains, IP Addresses, Files, Suspicious/Malicious Summary and Unknown.
 
-- Domains: contains the report of antiviruses that have identified individual domains and/or Urls as malicious.
-- IP Addresses: contains the summary of antiviruses that identified individual IP addresses as malicious.
-- FIles: contains the report of antiviruses that identified individual SHA1, SHA256 and/or MD5 as malicious.
+- Domains: contains the report of security vendors that have identified individual domains and/or Urls as malicious.
+- IP Addresses: contains the summary of security vendors that identified individual IP addresses as malicious.
+- FIles: contains the report of security vendors that identified individual SHA1, SHA256 and/or MD5 as malicious.
 - Suspicious/Malicious Summary: contains the summary of all domains, IP addresses, and files that were deemed malicious.
 - Unknown: contains the entries that the code was unable to identify and, consequently, analyze
 
-The report of each individual file will contain the antiviruses that flagged it as malicious or suspicious, "Undetected" in case it is clean or "Not found" in case it is not on the VirusTotal database.
+The report of each individual file will contain the security vendors that flagged it as malicious or suspicious, "Undetected" in case it is clean or "Not found" in case it is not on the VirusTotal database.
 
 ## Execution example
 
