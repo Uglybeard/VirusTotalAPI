@@ -2,7 +2,7 @@
 
 ## Check IP, domain and file reputation
 
-Enter a list of IP addresses, URLs, domains, SHA1, SHA256 or MD5 divided by a new-line (press enter) to get their reputation as a result.
+Enter a list of IP addresses, URLs, domains, SHA1, SHA256 or MD5 divided by a new-line to get their reputation as a result.
 
 Once started, the script will prompt you to enter the above entries or "q" to end execution.
 
