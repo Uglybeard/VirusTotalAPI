@@ -22,6 +22,8 @@ The report of each individual file will contain the antiviruses that flagged it 
 
 ## Execution example
 
+_Remember to replace <API_KEY> with the actual API key within the code._
+
 Following is an example of code execution:
 
 `python3 reputationCheck.py`
