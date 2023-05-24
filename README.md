@@ -1,6 +1,6 @@
 # VirusTotalAPI - Check IP, domain and file reputation
 
-## Check IP, domain and file reputation
+## Check IP, domain and file reputation with VT APIv3
 
 Enter a list of IP addresses, URLs, domains, SHA1, SHA256 or MD5 divided by a new-line to get their reputation as a result.
 
