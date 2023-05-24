@@ -1,6 +1,6 @@
 # VirusTotalAPI - Check IP, domain and file reputation
 
-##Check IP, domain and file reputation
+## Check IP, domain and file reputation
 
 Enter a list of IP addresses, URLs, domains, SHA1, SHA256 or MD5 to get their reputation as a result.
 
@@ -20,7 +20,7 @@ The result will be broken down by type, reporting the following entries: Domains
 
 The report of each individual file will contain the antiviruses that flagged it as malicious or suspicious, "Undetected" in case it is clean or "Not found" in case it is not on the VirusTotal database.
 
-##Execution example
+## Execution example
 
 Following is an example of code execution:
 
